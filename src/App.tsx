@@ -18,6 +18,12 @@ function App() {
       </div>
       <h1>E Spy System</h1>
       <div className="card">
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-12.293-2.707a1 1 0 0 1-.207-1.09l2-7A1 1 0 0 1 7.414 7H19a1 1 0 0 1 .97 1.243l-2 7A1 1 0 0 1 17 16H7a1 1 0 0 1-.707-.293zM7.82 9l-1.6 5.6h9.56l1.6-5.6H7.82z"/>
+          </svg>
+          Cart
+        </button>
         <button  onClick={() => setCount((count) => count + 1)}>
           + new agents : {count}
         </button>
