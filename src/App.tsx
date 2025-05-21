@@ -18,8 +18,8 @@ function App() {
       </div>
       <h1>E Spy System</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          add new agents : {count}
+        <button  onClick={() => setCount((count) => count + 1)}>
+          + new agents : {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
