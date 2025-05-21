@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>E Spy System</h1>
-      <p>Add new product show case</p>
+      <p>Change main button color 2.0.1</p>
       <div className="card">
         <button>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
