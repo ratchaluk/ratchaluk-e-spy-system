@@ -18,6 +18,11 @@ function App() {
       </div>
       <h1>E Spy System</h1>
       <p>This is New Products Page For Version 3.0.0</p>
+
+      <p>A Add Spy-Bird</p>
+
+      <p>MAM Add Spy</p>
+
       <div className="card">
         <button>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
