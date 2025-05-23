@@ -45,7 +45,8 @@ function App() {
         Bugs Here.
       </p>
       <p className='read-the-docs'>
-        Test Github Workflows Here.
+        Test Github Workflows Here. <br />
+        Add Jobs Build to Workflows.
       </p>
     </>
   )
