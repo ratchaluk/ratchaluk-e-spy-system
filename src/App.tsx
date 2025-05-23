@@ -43,8 +43,6 @@ function App() {
       </p>
       <p className='read-the-docs'>
         Bugs Here.
-        <br />
-        V6.0.0
       </p>
       <p className='read-the-docs'>
         Test Github Workflows Here. <br />
