@@ -1,0 +1,35 @@
+name: Deploy to Production on Release
+
+# When created a new release, run the build and deploy workflow
+on:
+  release:
+    types: [created]
+
+permissions:
+  pages: write
+  deployments: write
+  id-token: write
+
+jobs:
+  deploy:
+    # This job will only run when the release is created from the production branch
+    if: ${{ github.event.release.target_commitish == 'production' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3 # This action is used to upload the build artifact to GitHub Pages
+        with:
+            path: dist # This is the path to the build artifact
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4 # This action is used to deploy the build artifact to GitHub Pages
