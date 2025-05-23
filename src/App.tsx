@@ -44,6 +44,9 @@ function App() {
       <p className='read-the-docs'>
         Bugs Here.
       </p>
+      <p className='read-the-docs'>
+        Test Github Workflows Here.
+      </p>
     </>
   )
 }
