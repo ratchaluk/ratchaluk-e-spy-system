@@ -42,7 +42,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <p className='read-the-docs'>
-        Bugs Here.
+        Bugs Here. <br />
+        V6.0.0 here
       </p>
       <p className='read-the-docs'>
         Test Github Workflows Here. <br />
