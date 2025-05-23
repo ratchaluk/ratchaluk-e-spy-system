@@ -41,7 +41,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <p className='read-the-docs'>
+      <p className='read-the-docs'>>
         Bugs Here.
       </p>
     </>
