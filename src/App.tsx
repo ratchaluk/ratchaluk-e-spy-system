@@ -46,7 +46,8 @@ function App() {
       </p>
       <p className='read-the-docs'>
         Test Github Workflows Here. <br />
-        Add Jobs Build to Workflows.
+        Add Jobs Build to Workflows. <br />
+        Add needs lint to build.
       </p>
     </>
   )
