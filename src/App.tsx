@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>E Spy System</h1>
+      <h1>E Spy System V7.0.0</h1>
       <p>This is New Products Page For Version 3.0.0</p>
 
       <p>A Add Spy-Bird</p>
